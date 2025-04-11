@@ -1,0 +1,29 @@
+# Виртуальное окружение
+venv/
+.env
+
+# Кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Базы данных / временные файлы
+*.sqlite3
+*.db
+
+# Логи
+*.log
+
+# requirements из pipreqs (временные)
+pipreqs.log
+
+# MacOS/Windows системные
+.DS_Store
+Thumbs.db
