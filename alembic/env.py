@@ -9,7 +9,7 @@ from db.base import Base
 from core.config import settings
 
 
-load_dotenv(os.path.join(os.path.dirname(__file__), '..', '..', '.env'))
+load_dotenv(os.path.join(os.path.dirname(__file__), '../app', '..', '.env'))
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

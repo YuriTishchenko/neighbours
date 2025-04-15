@@ -1,7 +1,7 @@
 from enum import Enum
 from sqlalchemy import Column, Integer, ForeignKey, Enum as SQLAEnum
 from sqlalchemy.orm import relationship
-from app.db.base import Base
+from app.db.db import Base
 
 class UserFlatRole(str, Enum):
     OWNER = "owner"
