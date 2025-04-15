@@ -5,9 +5,8 @@ from sqlalchemy import pool
 from dotenv import load_dotenv
 from alembic import context
 
-from db.base import Base
-from core.config import settings
-
+from app.db.db import Base
+from app.core.config import settings
 
 load_dotenv(os.path.join(os.path.dirname(__file__), '../app', '..', '.env'))
 
